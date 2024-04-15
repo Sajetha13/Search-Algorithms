@@ -22,7 +22,7 @@ Program to perform linear search and binary search using python programming
 Developed by: S.Sajetha
 Referece number: 212223100049
 ```
-i)	# Use a linear search method to match the item in a list.
+i) Use a linear search method to match the item in a list.
 ```
 a=eval(input())
 a.sort()
@@ -35,11 +35,8 @@ for i in range (len(a)):
 else:
     print(a)
     print("Element not found")
-        
-
-
 ```
-ii)	# Find the element in a list using Binary Search(Iterative Method).
+ii) Find the element in a list using Binary Search(Iterative Method).
 ```
 def binary(list, n, low, high):
     f = 0
@@ -62,13 +59,8 @@ list = eval(input())
 list.sort()
 n = int(input())
 binary(list, n, 0, len(list) - 1)
-
-
-
-
-
 ```
-iii) # Find the element in a list using Binary Search (recursive Method).
+iii) Find the element in a list using Binary Search (recursive Method).
 ```
 def binary(list, n, low, high):
     
@@ -92,11 +84,6 @@ list = eval(input())
 list.sort()
 n = int(input())
 binary(list, n, 0, len(list) - 1)
-
-
-
-
-
 ```
 ## Sample Input and Output
 ![p1](image.png)
